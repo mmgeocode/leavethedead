@@ -1,0 +1,66 @@
+/* 
+    ? Color Template
+    #F8F0E5 Cream
+    #EADBC8 Light Beige
+    #DAC0A3 Beige
+    #OF2C59 Navy
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+
+nav {
+    background-color: #0f2c59;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    margin: 0%;
+    border-radius: 5px;
+    /* position: sticky; */
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: red;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    justify-content: left;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 500px) {
+    
+}
